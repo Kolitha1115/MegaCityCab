@@ -1,0 +1,400 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.t1-header{
+    height: 100vh;
+}
+.company_logo h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+.page_header{
+    background-color: rgb(9, 9, 10);
+    height: 10%;
+}
+.page_header_sub_wrapper{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page_search_bar{
+    display: flex;
+    align-items: center;
+}
+.pgs_main_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    height: 2em;
+    width: 20em;
+    border-radius: 25px;
+}
+.pgs_main_wrapper input{
+    height: 100%;
+    width: 88%;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding-left:10px;
+    outline: none;
+}
+.search_icon{
+    display: flex;
+    align-items: center;
+}
+.user_indicator{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.s2_user_selection{
+    border-bottom: 3px solid rgb(0, 4, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5em;
+    width: 90%;
+    margin: 10px auto;
+    cursor: pointer;
+}
+#all_12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 13, 13);
+    background-color: rgb(136, 143, 131);
+    width: 8em;
+    height: 2.5em;
+    border-radius: 5px;
+}
+.s2_item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.s2_item p{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.s22_indicator{
+    display: flex;
+    gap: 20px;
+}
+.header_image{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-image: url('../assert/carousel-2.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.l_sectio_user_indicator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 3.5em;
+    margin: 10px auto;
+    border: 1px solid rgb(216, 209, 209);
+    padding: 0 20px 0 20px;
+}
+.l_item_main_wrapper{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(109, 101, 101);
+}
+.l-style h3{
+    color: gray;
+    font-size: 1.1rem;
+}
+.l-style p{
+    color: rgb(47, 45, 45);
+}
+#u_name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* This is a new css line code */
+.top_catogores{
+    height: 22em;
+}
+.head_compo1{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_compo1 h2{
+    font-size: 1.8rem;
+}
+.head_compo1 p{
+    font-size: 1.2rem;
+    color: rgb(63, 63, 241);
+    font-weight: bold;
+}
+#on_1{
+    color: rgb(106, 108, 106);
+}
+.head_item_compo_2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 3px solid rgb(6, 6, 6);
+    gap: 1em;
+}
+.item_01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid rgb(165, 240, 128);
+    width: 12em;
+    border-radius: 50%;
+    height: 9em;
+    cursor: pointer;
+}
+
+.item_01:hover{
+    scale: 1.1;
+}
+.mo2{
+    margin-top: 25px;
+}
+.mo2 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.3rem; 
+}
+.cus_002{
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+}
+
+.supplier_item{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+    padding-top: 10px;
+    min-height: 20em;
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+
+
+/* This is item css */
+
+.p_item{
+    margin-top: 20px;
+    width: 15rem;
+    height: 20rem;
+    border-radius:10px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p_item:hover{
+    scale: 1.1;
+}
+.p_img{
+    width: 90%;
+    height: 10rem;
+    margin: 5px auto;
+}
+.instock_compo{
+    margin-left: 5px;
+    color: black;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: 1rem;
+    width: 70%;
+}
+.item_name{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+.item_price{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #3e3c3c;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.item_add_cart{
+    margin-top: -30px;
+    cursor: pointer;
+    background-color: blue;
+    color:white;
+    padding:10px;
+}
+.item_add_cart_flex{
+    display: flex;
+    padding-right: 10px;
+    justify-content: end;
+}
+.pheader{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner1{
+    width: 90%;
+    margin: 0 auto;
+    height: 20em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* This is footer css code */
+.footer_Section{
+    margin-top: 10px;
+    background-color:rgb(6, 6, 6);
+    min-height: 16em;
+}
+.footer_main_wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(99, 96, 96);
+}
+.footer_Section p,h3{
+    color: white;
+    line-height: 2;
+}
+.contact_icon{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 10px;
+}
+.container_one{
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.container_one h2{
+    color: white;
+    line-height: 2;
+}
+.container_one input{
+    background-color: rgb(251, 255, 255);
+    border: none;
+    height: 2em;
+}
+.container_one input::placeholder{
+    padding-left: 1em;
+}
+#footer_copyright{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.container_one button{
+    margin-top: 10px;
+    background-color: rgb(248, 31, 31);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* Contact_us style css. */
+.contact_us_component{
+    display: flex;
+    align-items: center;
+    height: 35em;
+}
+.contact_main_div{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px ;
+    height: 28em;
+    width: 70%;
+}
+.contact_main_div_left_wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.contact_main_div_right_wrapper{
+    padding: 30px;
+    width: 50%;
+}
+.contact_style_compo{
+    background-color:rgb(63, 63, 63);
+    height: 18em;
+    width: 15%;
+}
+.left_sub_item{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.left_sub_item p{
+    font-size: 1.2rem;
+}
+.contact_main_div_left_wrapper h2{
+    font-size: 2.5rem;
+}
+.contact_social_m_icon{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.contact_main_div_right_wrapper input{
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 3em;
+    background-color: #f3eded;
+    border: none;
+    border-radius: 5px;
+}
+.contact_main_div_right_wrapper input::placeholder{
+    font-size: 1.1rem;
+}
+.contact_main_div_right_wrapper textarea{
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f2ecec;
+    border: none;
+    border-radius: 5px;
+}
+.contact_main_div_right_wrapper textarea::placeholder{
+    font-size: 1.1rem;
+}
+.contact_main_div_right_wrapper button{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    width: 7.5em;
+    height: 2.5em;
+    background-color: rgb(254, 24, 24);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+}
+/* End Contact_us style css. */
