@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.page_main_wrapper {
+    width: 90%;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+.page_header {
+    background-color: #3abaa7;
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Content Layout */
+.p_des_main_wrapper {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+/* Left Section - Vehicle Image */
+.left_p_dec {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.item_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border: 2px solid #ddd;
+}
+
+.right_p_dec {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-middle; /* Aligns content to the right */
+    text-align: center; /* Ensures text is right-aligned */
+    justify-content:center;
+    padding-left: 20px; /* Adds spacing from the edge */
+}
+
+
+/* Vehicle Name */
+.r_item_name {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Price Wrapper */
+.r_price_wrapper {
+    display: flex;
+    align-items: right;
+    text-align:right;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.r_price_wrapper p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Rent Now Button */
+.r_price_wrapper a button {
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: #e74c3c;
+    cursor: pointer;
+    align-items:right;
+    text-align:right;
+    transition: 0.3s ease-in-out;
+}
+
+.r_price_wrapper a button:hover {
+    background-color: #c0392b;
+}
+
+/* Additional Details */
+.other_description {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .p_des_main_wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .left_p_dec,
+    .right_p_dec {
+        width: 100%;
+    }
+
+    .r_price_wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,232 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is header css code */
+.header_section{
+    display: flex;
+    height: 3.5em;
+    align-items: center;
+    padding: 1em;
+    background-color:rgb(87, 192, 39);
+}
+.bussiness_logo{
+    flex-grow: 1;
+    text-align: center;
+   
+}
+.bussiness_logo a{
+    font-size: 2.5rem;
+    color: rgb(251, 250, 250);
+    font-weight: bold;
+    text-decoration: none;
+}
+.navigation_section a{
+    font-size: 1.5rem;
+    margin: 0 10px 0 10px;
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+}
+.navigation_section{
+    flex-grow: 1;
+    text-align: center;
+    
+}
+.search_bar{
+    text-align: center;
+    flex-grow:1 ;
+    
+}
+.search_bar input{
+    padding-left: 10px;
+    border-radius: 15px;
+    height: 2.5em;
+    border: none;
+    width: 75%;
+}
+/* End header css code */
+.main_wrapper_checkout_page{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.main_wrapper_checkout_page p{
+    margin-top: 10px;
+}
+.sub_wrapper_checkout_page{
+    display: flex;
+}
+.checkout_page_item{
+    padding: 1em;
+    width: 50%;
+    height: 35em;
+}
+.customer_details_field {
+    width: 100%;
+}
+.customer_details_field label{
+    margin-top: 8px;
+    display: inline-block;
+    color: rgb(69, 68, 68);
+    margin-bottom: 8px;
+}
+.customer_details_field input{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    height: 3em;
+    border: none;
+    padding-left: 0.5em;
+    outline: none;
+    border-radius: 3px;
+}
+.customer_details_field inpt::placeholder{
+    padding-left: 0.5em;
+}
+
+
+.checkout_page_item2{
+    margin-bottom: 50px;
+    width: 50%;
+    height: 35em;
+    /* border: 1px solid rgb(37, 36, 36); */
+}
+
+.user_buy_item_display{
+    padding: 0.5em;
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 28em;
+    margin: 60px auto;
+}
+.user_buy_items{
+    padding: 0.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    background-color: rgb(235, 236, 236);
+    border: 1px solid rgb(202, 197, 197);
+}
+.cart_total_item{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bank_payment_method{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkout_coupan_code{
+    margin-top: 10px;
+}
+.checkout_coupan_code input{
+   height: 3em;
+   width: 15em;
+}
+.checkout_coupan_code button{
+  padding: 0.5em;
+  width: 15em;
+  height: 3em;
+  border: none;
+  background-color: rgb(6, 6, 6);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#placeholder_btn{
+    margin-top: 20px;
+  padding: 0.5em;
+  width: 15em;
+  height: 3em;
+  border: none;
+  background-color: rgb(1, 1, 1);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+/* This is footer css code */
+.footer_Section{
+    margin-top: 10px;
+    background-color: rgb(87, 192, 39);
+    min-height: 16em;
+}
+.footer_main_wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(99, 96, 96);
+}
+.footer_Section p,h3{
+    color: white;
+    line-height: 2;
+}
+.contact_icon{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 10px;
+}
+.container_one{
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+.container_one h2{
+    color: white;
+    line-height: 2;
+}
+.container_one input{
+    background-color: rgb(251, 255, 255);
+    border: none;
+    height: 2em;
+}
+.container_one input::placeholder{
+    padding-left: 1em;
+}
+#footer_copyright{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.container_one button{
+    margin-top: 10px;
+    background-color: rgb(248, 13, 13);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.f-l-e{
+    display: flex;
+    gap: 10px;
+}
+
+/* Extra small devices (phones, 830px and down) */
+@media only screen and (max-width: 830px) {
+    .user_view_persentage_m01{
+        height: 65em;
+    }
+    .page_body_main_wrapper{
+        margin-top: 200px;
+    }
+    .right_warpper{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+    .left_warpper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+}
