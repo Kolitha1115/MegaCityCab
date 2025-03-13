@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+
+.admin-dash-main-wrapper{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    height: 75vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.admin-dash-left-wrapper{
+    padding: 10px;
+    width: 100%;
+}
+.tab-btn-main-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 3em;
+    margin-bottom: 10px;
+}
+.tab-btn-main-wrapper button{
+    padding: 10px;
+    width: 20%;
+}
+table {
+    margin-top: 10px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.btn{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    background-color: rgb(78, 237, 78);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn1{
+    padding: 8px;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    background-color: rgb(240, 86, 76);
+}
+.btn3{
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+     background-color: rgb(240, 86, 76);
+}
+
+
+
+
+.w3-container-city{
+    margin-top: 10px;
+}
+/* Form Styling */
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Two-column layout */
+.form-container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+/* Labels and Inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto; /* Vertical scroll */
+    overflow-x: auto; /* Horizontal scroll if needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+
+
