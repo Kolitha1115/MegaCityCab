@@ -12,7 +12,7 @@ public class LoginRepo {
 
     // Hardcoded admin credentials
     private static final String ADMIN_USERNAME = "admin";
-    private static final String ADMIN_PASSWORD = "123";
+    private static final String ADMIN_PASSWORD = "123@admin";
     
     // Updated Database connection details
     private static final String URL = "jdbc:mysql://127.0.0.1:3306/megacab?useSSL=false&serverTimezone=UTC";
